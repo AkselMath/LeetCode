@@ -30,4 +30,4 @@ class Solution(object):
         return lp
 
 sd = Solution()
-print(sd.generateParenthesis(4))
+print(sorted(sd.generateParenthesis(3)))
